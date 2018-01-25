@@ -6,6 +6,14 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><strong>Ruby version</strong></td>
+      <td><%= RUBY_VERSION %></td>
+    </tr>
+    <tr>
+      <td><strong>Ruby package description</strong></td>
+      <td><%= RUBY_DESCRIPTION %></td>
+    </tr>
   <% ENV.sort.each do |name, value| %>
     <tr>
       <td><strong><%= name %></strong></td>
