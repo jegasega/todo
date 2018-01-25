@@ -6,12 +6,16 @@
     </tr>
   </thead>
   <tbody>
+      <tr>
+      <td><strong>RUBY GEMS VERSION</strong></td>
+      <td><%= Gem::RubyGemsVersion.to_s  %></td>
+    </tr>
     <tr>
-      <td><strong>Ruby version</strong></td>
+      <td><strong>RUBY VERSION</strong></td>
       <td><%= RUBY_VERSION %></td>
     </tr>
     <tr>
-      <td><strong>Ruby package description</strong></td>
+      <td><strong>RUBY PACKAGE DESCRIPTION</strong></td>
       <td><%= RUBY_DESCRIPTION %></td>
     </tr>
   <% ENV.sort.each do |name, value| %>
