@@ -22,7 +22,7 @@ gem 'coffee-rails'
 gem 'uglifier'
 
 platform :ruby do
-#  gem 'mysql2'
+  gem 'mysql2'
 #  gem 'pg', '~> 0.15'
 #  gem 'activerecord-postgis-adapter', '3.0.0.beta2'
   gem 'sqlite3'
