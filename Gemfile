@@ -5,6 +5,10 @@ end
 
 source 'https://rubygems.org'
 
+gem 'rake', '~> 11.3.0'
+gem 'nokogiri', '1.6.1'
+gem 'rgeo', '0.5.3'
+gem 'sass', '3.4.25'
 gem 'rails', '~> 4.2.0'
 
 gem 'ey_config'
@@ -18,17 +22,17 @@ gem 'coffee-rails'
 gem 'uglifier'
 
 platform :ruby do
-  gem 'mysql2'
-  gem 'pg', '~> 0.15'
-  gem 'activerecord-postgis-adapter', '3.0.0.beta2'
+#  gem 'mysql2'
+#  gem 'pg', '~> 0.15'
+#  gem 'activerecord-postgis-adapter', '3.0.0.beta2'
   gem 'sqlite3'
 
-  gem 'newrelic_rpm'
-  gem 'unicorn'
-  gem 'puma'
+#  gem 'newrelic_rpm'
+#  gem 'unicorn'
+#  gem 'puma'
   gem 'json'
   gem 'minitest'
-  gem 'psych'
+#  gem 'psych'
   gem 'racc'
 end
 
@@ -57,3 +61,4 @@ end
 group :development, :test do
 
 end
+
